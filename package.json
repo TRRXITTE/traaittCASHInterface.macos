@@ -71,9 +71,7 @@
       ]
     },
     "win": {
-      "target": [
-        "nsis"
-      ]
+      "target": ["nsis"]
     },
     "nsis": {
       "oneClick": false,
@@ -81,9 +79,7 @@
       "allowToChangeInstallationDirectory": true
     },
     "linux": {
-      "target": [
-        "AppImage"
-      ],
+      "target": ["AppImage"],
       "category": "Development"
     },
     "directories": {
@@ -127,12 +123,7 @@
   "bugs": {
     "url": "https://github.com/trrxitte/traaittCASHInterface.macos/issues"
   },
-  "keywords": [
-    "traaittcash",
-    "gui wallet",
-    "electron",
-    "proton"
-  ],
+  "keywords": ["traaittcash", "gui wallet", "electron", "proton"],
   "homepage": "https://github.com/trrxitte/traaittCASHInterface.macos#readme",
   "jest": {
     "testURL": "http://localhost/",
@@ -140,17 +131,11 @@
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/internals/mocks/fileMock.js",
       "\\.(css|less|sass|scss)$": "identity-obj-proxy"
     },
-    "moduleFileExtensions": [
-      "js",
-      "jsx",
-      "json"
-    ],
+    "moduleFileExtensions": ["js", "jsx", "json"],
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
     },
-    "setupFiles": [
-      "./internals/scripts/CheckBuiltsExist.js"
-    ]
+    "setupFiles": ["./internals/scripts/CheckBuiltsExist.js"]
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
@@ -278,7 +263,7 @@
     "semver": "^6.2.0",
     "source-code-pro": "^2.30.2",
     "tail": "^2.0.3",
-    "@trrxitte/traaittcash-wallet-backend": "^0.0.1"
+    "@trrxitte/traaittcash-wallet-backend": "^0.0.2"
   },
   "devEngines": {
     "node": ">=10.x",
