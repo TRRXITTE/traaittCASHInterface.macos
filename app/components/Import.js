@@ -62,7 +62,7 @@ export default class Import extends Component<Props, States> {
       defaultPath: remote.app.getPath('documents'),
       filters: [
         {
-          name: 'traaittCASH Wallet File',
+          name: 'traaittCASH Wallet File (v0)',
           extensions: ['wallet']
         }
       ]

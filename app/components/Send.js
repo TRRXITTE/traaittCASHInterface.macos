@@ -218,7 +218,7 @@ export default class Send extends Component<Props, State> {
    //   return;
    // }
 
-    const fee = displayCurrency === 'XTCASH' ? 0.0000001 : 1 * fiatPrice;
+    const fee = displayCurrency === 'XTCASH' ? 0.00001 : 1 * fiatPrice;
 
     const totalAmount = (
       parseFloat(enteredAmount) +

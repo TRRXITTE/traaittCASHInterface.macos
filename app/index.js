@@ -275,7 +275,7 @@ ipcRenderer.on('handleSaveAs', () => {
     defaultPath: remote.app.getPath('documents'),
     filters: [
       {
-        name: 'traaittCASH Wallet File',
+        name: 'traaittCASH Wallet File (v0)',
         extensions: ['wallet']
       }
     ]
@@ -347,7 +347,7 @@ function handleOpen() {
     defaultPath: remote.app.getPath('documents'),
     filters: [
       {
-        name: 'traaittCASH Wallet File',
+        name: 'traaittCASH Wallet File (v0)',
         extensions: ['wallet']
       }
     ]
@@ -493,7 +493,7 @@ export function saveNew(wallet: any, password: string) {
     defaultPath: remote.app.getPath('documents'),
     filters: [
       {
-        name: 'traaittCASH Wallet File',
+        name: 'traaittCASH Wallet File (v0)',
         extensions: ['wallet']
       }
     ]
